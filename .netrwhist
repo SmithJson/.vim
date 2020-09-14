@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/Users/zhangl/Library/Application Support/Übersicht/widgets/polybar'
+let g:netrw_dirhist_5='/Users/zhangl/Desktop/leetcode/src'
+let g:netrw_dirhist_4='/Users/zhangl/Desktop/leetcode'
+let g:netrw_dirhist_3='/Users/zhangl/Desktop/面试/前端/手撸代码'
+let g:netrw_dirhist_2='/Users/zhangl/Desktop/面试/前端'
+let g:netrw_dirhist_1='/Users/zhangl/Desktop/面试'
+let g:netrw_dirhist_0='/Users/zhangl/Desktop'
+let g:netrw_dirhist_9='/Users/zhangl/Desktop/leetcode/src'
+let g:netrw_dirhist_8='/Users/zhangl/Desktop/ts_demo'
+let g:netrw_dirhist_7='/Users/zhangl/Desktop'

@@ -1,0 +1,47 @@
+{
+	"snippets.ultisnips.directories": [
+		"~/.vim/Ultisnips/",
+		"~/.vim/plugged/vim-snippets/UltiSnips/"
+	],
+	"languageserver": {
+		"golang": {
+			"command": "gopls",
+			"rootPatterns": [
+				"go.mod"
+			],
+			"filetypes": [
+				"go"
+			],
+			"initializationOptions": {
+				"gocodeCompletionEnabled": true,
+				"diagnosticsEnabled": true,
+				"lintTool": "golint"
+			}
+		},
+		"ccls": {
+			"command": "ccls",
+			"trace.server": "verbose",
+			"initializationOptions": {
+				"cacheDirectory": "/tmp/ccls"
+			},
+			"filetypes": [
+				"c",
+				"cpp",
+				"objc",
+				"objcpp"
+			]
+		},
+		"sql": {
+			"command": "sql-language-server",
+			"args": [
+				"up",
+				"--method",
+				"stdio"
+			],
+			"filetypes": [
+				"sql",
+				"mysql"
+			]
+		}
+	}
+}
